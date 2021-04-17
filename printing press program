@@ -1,0 +1,60 @@
+#include <stdio.h>
+#include<conio.h>
+
+int main()
+{
+    int i,l=210,b=297,t,n,length,breadth;
+
+    for(i=4;i>=1;i--)
+    {
+        printf("\nA%d:%d x%d\n",i,l,b);
+        t=l;
+        l=b;
+        b=t*2;
+    }
+    printf("enter the number of nodes");
+    scanf("%d",&n);
+    for(i=1;i<n;i++)
+    {
+        printf("order:%d\n",i);
+        printf("enter the length=");
+        scanf("%d",&length);
+        printf("length=%d\n",length);
+        printf("enter the breadth=");
+        scanf("%d",&breadth);
+        printf("breadth%d\n",breadth);
+    }
+    printf("order:%d\n",i);
+    printf("enter the length=");
+    scanf("%d",&length);
+    printf("length=%d\n",length);
+    printf("enter the breadth=");
+    scanf("%d",&breadth);
+    printf("breadth=%d\n",breadth);
+    if(length==210&&breadth==297)
+    {
+        int cost1=10;
+        printf("cost1=%d",cost1);
+    }
+    else if(length==297&&breadth==420)
+    {
+        int cost2=15;
+        printf("cost2=%d",cost2);
+        
+    }
+    else if(length==420&&breadth==594)
+    {
+        int cost3=20;
+        printf("cost3=%d",cost3);
+        
+    }
+    else(length==420&&breadth==594);
+    {
+        int cost4=25;
+        printf("cost2=%d",cost4);
+        
+    }
+}
+    
+    
+
